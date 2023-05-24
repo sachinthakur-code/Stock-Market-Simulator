@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+    <html>
+      <head>
+        <title>Stock Information</title>
+        <style>
+          * {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: #161616;
+	min-height: 100vh;
+}
+
+section::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#DA22FF, #9733EE);
+	
+}
+
+section::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(#E55D87, #5FC3E4);
+	
+}
+
+.container {
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 70px 0;
+}
+
+.container .card {
+	position: relative;
+	width: 700px;
+	height: 300px;
+	background: rgba(255, 255, 255, 0.05);
+	margin: 20px;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	backdrop-filter: blur(10px);
+}
+
+.container .card .content {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transition: 0.5s;
+}
+
+.container .card:hover .content {
+	transform: translateY(-20px);
+}
+
+.container .card .content .imgBx {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.container .card .content .imgBx img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.container .card .content .contentBx h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	font-size: 18px;
+	text-align: center;
+	margin: 20px 0 10px;
+	line-height: 1.1em;
+}
+
+.container .card .content .contentBx h3 span {
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: initial;
+}
+
+.container .card .sci {
+	position: absolute;
+	bottom: 50px;
+	display: flex;
+}
+
+.container .card .sci li {
+	list-style: none;
+	margin: 0 10px;
+	transform: translateY(40px);
+	transition: 0.5s;
+	opacity: 0;
+}
+
+.container .card:hover .sci li {
+	transform: translateY(0px);
+	opacity: 1;
+}
+
+.container .card .sci li a {
+	color: #fff;
+	font-size: 20px;
+}
+
+  .heade
+{
+background: none repeat scroll 0 0 #E0E0E0;
+border-radius: 10px 10px 10px 10px;
+height: 50px;
+position: absolute;
+top: 20px;
+width: 940px;
+}
+.heade h1   {  line-height: 0; }
+        </style>
+      </head>
+      <body style="background-color:powderblue;">
+      <div class="heade">
+       <h1>
+      <p style="text-align:center; color:red; font-weight: bold; margin: 10px;">Stock News</p>
+      </h1>
+       </div>
+        <ul>
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/05/Healing-Space-54-Bouncebackability-markets-and-mental-health-bounce-back-770x433.jpg?impolicy=website&width=400&height=225">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/markets/dalal-street-week-ahead-here-are-the-top-10-factors-that-will-keep-traders-busy-10628741.html" title="Dalal Street Week Ahead: Here are the top 10 factors that will keep traders busy">Dalal Street Week Ahead: Here are the top 10 factors that will keep traders busy</a></h2><p></p>The 10-year bond yields and the rupee level will be key to watch out for as the talks gather pace. Experts expect a range of 82.20 and 83.20 on the USDINR spot<p></p><span>May 21, 2023 09:06 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2023/05/stocks5-5-770x433.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/markets/pick-these-3-stocks-for-up-to-24-percent-returns-10629621.html" title="Pick these 3 stocks for up to 24 percent returns">Pick these 3 stocks for up to 24 percent returns</a></h2><p></p>Traders are advised to book profits hereon as there could be a sharp corrective move in the coming weeks. On the downside, the immediate support is at 18,060, and a breach of the same might result in further profit-booking.<p></p><span>May 21, 2023 08:09 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/10/Buy_3-1-378x213.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/buy-cyient-target-of-rs-1450-motilal-oswal-10622751.html" title="Buy Cyient; target of Rs 1450: Motilal Oswal">Buy Cyient; target of Rs 1450: Motilal Oswal</a></h2><p></p>Motilal Oswal is bullish on Cyient recommended buy rating on the stock with a target price of Rs 1450 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 09:48 PM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/10/Buy_3-1-378x213.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/buy-v-mart-retail-target-of-rs-2375-motilal-oswal-10622791.html" title="Buy V-Mart Retail; target of Rs 2375: Motilal Oswal">Buy V-Mart Retail; target of Rs 2375: Motilal Oswal</a></h2><p></p>Motilal Oswal is bullish on V-Mart Retail recommended buy rating on the stock with a target price of Rs 2375 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 09:48 PM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/10/Buy_3-1-378x213.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/buy-endurance-technologies-target-of-rs-1650-motilal-oswal-2-10622811.html" title="Buy Endurance Technologies; target of Rs 1650: Motilal Oswal">Buy Endurance Technologies; target of Rs 1650: Motilal Oswal</a></h2><p></p>Motilal Oswal is bullish on Endurance Technologies recommended buy rating on the stock with a target price of Rs 1650 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 09:48 PM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/10/Buy_1-378x213-2.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/buy-state-bank-of-india-target-of-rs-700-motilal-oswal-2-10622821.html" title="Buy State Bank of India; target of Rs 700: Motilal Oswal">Buy State Bank of India; target of Rs 700: Motilal Oswal</a></h2><p></p>Motilal Oswal is bullish on State Bank of India recommended buy rating on the stock with a target price of Rs 700 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 09:48 PM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/12/Buy-378x213.png?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/buy-itc-target-of-rs-485-motilal-oswal-10622831.html" title="Buy ITC; target of Rs 485: Motilal Oswal">Buy ITC; target of Rs 485: Motilal Oswal</a></h2><p></p>Motilal Oswal is bullish on ITC recommended buy rating on the stock with a target price of Rs 485 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 09:48 PM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/12/Buy-378x213.png?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/buy-endurance-technologies-target-of-rs-1670-prabhudas-lilladher-10622391.html" title="Buy Endurance Technologies; target of Rs 1670: Prabhudas Lilladher">Buy Endurance Technologies; target of Rs 1670: Prabhudas Lilladher</a></h2><p></p>Prabhudas Lilladher is bullish on Endurance Technologies has recommended buy rating on the stock with a target price of Rs 1670 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 11:17 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2020/06/accumulate2-770x433.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/accumulate-restaurant-brands-asia-target-of-rs-132-prabhudas-lilladher-10622521.html" title="Accumulate Restaurant Brands Asia; target of Rs 132: Prabhudas Lilladher">Accumulate Restaurant Brands Asia; target of Rs 132: Prabhudas Lilladher</a></h2><p></p>Prabhudas Lilladher recommended accumulate rating on Restaurant Brands Asia with a target price of Rs 132 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 11:17 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2020/06/accumulate2-770x433.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/accumulate-itc-target-of-rs-455-prabhudas-lilladher-10622481.html" title="Accumulate ITC; target of Rs 455: Prabhudas Lilladher">Accumulate ITC; target of Rs 455: Prabhudas Lilladher</a></h2><p></p>Prabhudas Lilladher recommended accumulate rating on ITC with a target price of Rs 455 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 11:17 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2020/06/accumulate2-770x433.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/accumulate-zydus-lifesciences-target-of-rs-520-prabhudas-lilladher-10622451.html" title="Accumulate Zydus Lifesciences; target of Rs 520: Prabhudas Lilladher">Accumulate Zydus Lifesciences; target of Rs 520: Prabhudas Lilladher</a></h2><p></p>Prabhudas Lilladher recommended accumulate rating on Zydus Lifesciences with a target price of Rs 520 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 11:17 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/12/Buy_1-378x213.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/buy-thermax-target-of-rs-2613-prabhudas-lilladher-10622431.html" title="Buy Thermax; target of Rs 2613: Prabhudas Lilladher">Buy Thermax; target of Rs 2613: Prabhudas Lilladher</a></h2><p></p>Prabhudas Lilladher is bullish on Thermax has recommended buy rating on the stock with a target price of Rs 2613 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 11:17 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/10/Buy_3-1-378x213.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/buy-state-bank-of-india-target-of-rs-770-prabhudas-lilladher-10622361.html" title="Buy State Bank of India; target of Rs 770: Prabhudas Lilladher">Buy State Bank of India; target of Rs 770: Prabhudas Lilladher</a></h2><p></p>Prabhudas Lilladher is bullish on State Bank of India has recommended buy rating on the stock with a target price of Rs 770 in its research report dated May 19, 2023.<p></p><span>May 20, 2023 11:16 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/10/buy-2-1-378x213-1.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/buy-sanofi-india-target-of-rs-7500-sharekhan-10623021.html" title="Buy Sanofi India; target of Rs 7500: Sharekhan">Buy Sanofi India; target of Rs 7500: Sharekhan</a></h2><p></p>Sharekhan is bullish on Sanofi India has recommended buy rating on the stock with a target price of Rs 7500 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 11:00 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/10/hold-1.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/hold-astral-target-of-rs-1820-sharekhan-10622921.html" title="Hold Astral; target of Rs 1820: Sharekhan">Hold Astral; target of Rs 1820: Sharekhan</a></h2><p></p>Sharekhan recommended Hold rating on Astral with a target price of Rs 1820 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 10:49 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/10/hold-2.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/hold-tata-elxsi-target-of-rs-7500-sharekhan-10622961.html" title="Hold Tata Elxsi; target of Rs 7500: Sharekhan">Hold Tata Elxsi; target of Rs 7500: Sharekhan</a></h2><p></p>Sharekhan recommended Hold rating on Tata Elxsi with a target price of Rs 7500 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 10:49 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/10/Buy_3-1-378x213.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/buy-alicon-castalloy-target-of-rs-895-sharekhan-10622971.html" title="Buy Alicon Castalloy; target of Rs 895: Sharekhan">Buy Alicon Castalloy; target of Rs 895: Sharekhan</a></h2><p></p>Sharekhan is bullish on Alicon Castalloy has recommended buy rating on the stock with a target price of Rs 895 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 10:49 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/12/Buy_1-378x213.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/buy-restaurant-brands-asia-burger-king-india-target-of-rs-150-sharekhan-10622981.html" title="Buy Restaurant Brands Asia (Burger King India); target of Rs 150: Sharekhan">Buy Restaurant Brands Asia (Burger King India); target of Rs 150: Sharekhan</a></h2><p></p>Sharekhan is bullish on Restaurant Brands Asia (Burger King India) has recommended buy rating on the stock with a target price of Rs 150 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 10:49 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/12/Buy_4-1-378x213.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/buy-itc-target-of-rs-485-sharekhan-10623071.html" title="Buy ITC; target of Rs 485: Sharekhan">Buy ITC; target of Rs 485: Sharekhan</a></h2><p></p>Sharekhan is bullish on ITC has recommended buy rating on the stock with a target price of Rs 485 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 10:49 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/12/Buy-378x213.png?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/buy-state-bank-of-india-target-of-rs-710-sharekhan-5-10623051.html" title="Buy State Bank of India; target of Rs 710: Sharekhan">Buy State Bank of India; target of Rs 710: Sharekhan</a></h2><p></p>Sharekhan is bullish on State Bank of India has recommended buy rating on the stock with a target price of Rs 710 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 10:49 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2023/05/markets15-770x435.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/volatile-market-sees-broader-indices-outperform-benchmarks-it-realty-regain-shine-10627881.html" title="Broader indices brave raging volatility in markets, beat benchmarks">Broader indices brave raging volatility in markets, beat benchmarks</a></h2><p></p>India’s April macro factors have seen improvement with record GST collection, improved PMI numbers, trade deficit narrowing to near two-year lows, and sharp softening in headline and core inflation<p></p><span>May 21, 2023 10:56 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/12/Buy_1-378x213.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/buy-gail-india-target-of-rs-150-yes-securities-10623141.html" title="Buy GAIL (India); target of Rs 150: YES Securities">Buy GAIL (India); target of Rs 150: YES Securities</a></h2><p></p>YES Securities is bullish on GAIL (India) has recommended buy rating on the stock with a target price of Rs 150 in its research report dated May 19, 2023.<p></p><span>May 20, 2023 10:23 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2022/12/Buy-378x213.png?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/buy-endurance-technologies-target-of-rs-1665-yes-securities-10623171.html" title="Buy Endurance Technologies; target of Rs 1665: YES Securities">Buy Endurance Technologies; target of Rs 1665: YES Securities</a></h2><p></p>YES Securities is bullish on Endurance Technologies has recommended buy rating on the stock with a target price of Rs 1665 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 10:22 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2020/06/neutral2-770x433.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/business/stocks/neutral-psp-projects-target-of-rs-723-yes-securities-10623181.html" title="Neutral PSP Projects; target of Rs 723: YES Securities">Neutral PSP Projects; target of Rs 723: YES Securities</a></h2><p></p>YES Securities recommended Neutral rating on PSP Projects with a target price of Rs 723 in its research report dated May 18, 2023.<p></p><span>May 20, 2023 10:22 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+                <section>
+		<div class="container">
+			<div class="card">
+				<div class="content">
+					<div class="imgBx">
+						<img src="https://images.moneycontrol.com/static-mcnews/2023/05/market_volatile1-2-770x433.jpg?impolicy=website&width=135&height=80">
+					</div>
+					<div class="contentBx">
+						<h2> <a href="https://www.moneycontrol.com/news/photos/business/markets/market-falls-amid-volatility-fii-buying-continues-rupee-dips-further-10627521.html" title="Market falls amid volatility; FII buying continues, rupee dips further">Market falls amid volatility; FII buying continues, rupee dips further</a></h2><p></p>Indian rupee ended 50 paise lower at 82.66 to a dollar on May 19 against its May 12 closing of 82.16.<p></p><span>May 20, 2023 08:31 AM IST</span>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+        
+        
+        </ul>
+      </body>
+      <script>
+      setTimeout(() => {document.location.reload();}, 10000);
+      </script>
+    </html>

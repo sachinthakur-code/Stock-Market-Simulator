@@ -1,0 +1,302 @@
+[
+{
+"name": "ADANIPORTS",
+"value": 691,
+"volatility": 3.92,
+"type": "Raw Materials"
+},
+{
+"name": "ADANIENT",
+"value": 1955,
+"volatility": 3.44,
+"type": "Energy"
+},
+{
+"name": "TATAMOTORS",
+"value": 525,
+"volatility": 3.25,
+"type": "Technology"
+},
+{
+"name": "TECHM",
+"value": 1072,
+"volatility": 2.22,
+"type": "Energy"
+},
+{
+"name": "INFY",
+"value": 1269,
+"volatility": 1.85,
+"type": "Finance"
+},
+{
+"name": "HCLTECH",
+"value": 1094,
+"volatility": 1.31,
+"type": "Energy"
+},
+{
+"name": "AXISBANK",
+"value": 926,
+"volatility": 1.24,
+"type": "Energy"
+},
+{
+"name": "M&M",
+"value": 1258,
+"volatility": 1,
+"type": "Finance"
+},
+{
+"name": "ULTRACEMCO",
+"value": 7680,
+"volatility": 1,
+"type": "Technology"
+},
+{
+"name": "GRASIM",
+"value": 1720.55,
+"volatility": 0.87,
+"type": "Finance"
+},
+{
+"name": "WIPRO",
+"value": 385.9,
+"volatility": 0.86,
+"type": "Energy"
+},
+{
+"name": "ICICIBANK",
+"value": 954,
+"volatility": 0.79,
+"type": "Finance"
+},
+{
+"name": "TCS",
+"value": 3224.55,
+"volatility": 0.77,
+"type": "Technology"
+},
+{
+"name": "KOTAKBANK",
+"value": 1942,
+"volatility": 0.76,
+"type": "Energy"
+},
+{
+"name": "INDUSINDBK",
+"value": 1247.6,
+"volatility": 0.7,
+"type": "Finance"
+},
+{
+"name": "MARUTI",
+"value": 9108,
+"volatility": 0.6,
+"type": "Raw Materials"
+},
+{
+"name": "BHARTIARTL",
+"value": 804.1,
+"volatility": 0.59,
+"type": "Energy"
+},
+{
+"name": "HINDUNILVR",
+"value": 2641,
+"volatility": 0.51,
+"type": "Raw Materials"
+},
+{
+"name": "RELIANCE",
+"value": 2444,
+"volatility": 0.41,
+"type": "Energy"
+},
+{
+"name": "HINDALCO",
+"value": 407.75,
+"volatility": 0.31,
+"type": "Raw Materials"
+},
+{
+"name": "CIPLA",
+"value": 917,
+"volatility": 0.27,
+"type": "Raw Materials"
+},
+{
+"name": "LT",
+"value": 2194,
+"volatility": 0.27,
+"type": "Finance"
+},
+{
+"name": "SBIN",
+"value": 575.65,
+"volatility": 0.25,
+"type": "Raw Materials"
+},
+{
+"name": "SBILIFE",
+"value": 1155.55,
+"volatility": 0.25,
+"type": "Technology"
+},
+{
+"name": "JSWSTEEL",
+"value": 693.65,
+"volatility": 0.23,
+"type": "Raw Materials"
+},
+{
+"name": "ITC",
+"value": 420.1,
+"volatility": 0.1,
+"type": "Raw Materials"
+},
+{
+"name": "HDFCBANK",
+"value": 1646.5,
+"volatility": 0.09,
+"type": "Finance"
+},
+{
+"name": "BAJAJFINSV",
+"value": 1416.5,
+"volatility": 0.07,
+"type": "Energy"
+},
+{
+"name": "BPCL",
+"value": 360.95,
+"volatility": 0.07,
+"type": "Energy"
+},
+{
+"name": "COALINDIA",
+"value": 239.7,
+"volatility": 0.04,
+"type": "Finance"
+},
+{
+"name": "APOLLOHOSP",
+"value": 4440,
+"volatility": -0.05,
+"type": "Finance"
+},
+{
+"name": "BAJFINANCE",
+"value": 6780.2,
+"volatility": -0.14,
+"type": "Raw Materials"
+},
+{
+"name": "HDFC",
+"value": 2711,
+"volatility": -0.18,
+"type": "Technology"
+},
+{
+"name": "NESTLEIND",
+"value": 21630,
+"volatility": -0.23,
+"type": "Technology"
+},
+{
+"name": "SUNPHARMA",
+"value": 927.2,
+"volatility": -0.26,
+"type": "Energy"
+},
+{
+"name": "TATACONSUM",
+"value": 765.75,
+"volatility": -0.27,
+"type": "Energy"
+},
+{
+"name": "EICHERMOT",
+"value": 3563,
+"volatility": -0.37,
+"type": "Finance"
+},
+{
+"name": "TATASTEEL",
+"value": 104.7,
+"volatility": -0.48,
+"type": "Energy"
+},
+{
+"name": "BAJAJ-AUTO",
+"value": 4488.05,
+"volatility": -0.68,
+"type": "Finance"
+},
+{
+"name": "TITAN",
+"value": 2703,
+"volatility": -0.69,
+"type": "Raw Materials"
+},
+{
+"name": "DRREDDY",
+"value": 4389.95,
+"volatility": -0.75,
+"type": "Finance"
+},
+{
+"name": "POWERGRID",
+"value": 233.85,
+"volatility": -0.76,
+"type": "Technology"
+},
+{
+"name": "ASIANPAINT",
+"value": 3085,
+"volatility": -0.77,
+"type": "Energy"
+},
+{
+"name": "UPL",
+"value": 667.9,
+"volatility": -0.81,
+"type": "Energy"
+},
+{
+"name": "HDFCLIFE",
+"value": 556.95,
+"volatility": -0.82,
+"type": "Finance"
+},
+{
+"name": "HEROMOTOCO",
+"value": 2712.65,
+"volatility": -0.82,
+"type": "Technology"
+},
+{
+"name": "NTPC",
+"value": 173.3,
+"volatility": -1.03,
+"type": "Finance"
+},
+{
+"name": "ONGC",
+"value": 164.6,
+"volatility": -1.05,
+"type": "Technology"
+},
+{
+"name": "BRITANNIA",
+"value": 4494,
+"volatility": -1.54,
+"type": "Technology"
+},
+{
+"name": "DIVISLAB",
+"value": 3092,
+"volatility": -1.95,
+"type": "Technology"
+}
+]
